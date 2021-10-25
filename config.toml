@@ -1,7 +1,7 @@
 ################################# Default configuration ###################
-#baseURL = "https://examplesite.com"
-baseURL = "localhost"
-title = "Demarch - your digital transform partner"
+baseURL = "https://"
+# baseURL = "localhost"
+title = "Demarch - votre partenaire en transformation digitale"
 theme = "meghna-hugo"
 #themesDir = "../.."
 # post pagination
@@ -11,7 +11,7 @@ summaryLength = "15"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = []
+disableLanguages = ['En']
 
 ############################# Plugins ##########################
 # css plugins
@@ -86,48 +86,50 @@ weight = 8
 
 ################### French Navigation ########################
 [[Languages.fr.menu.main]]
-name = "sur"
+name = "À propos"
 url = "#about"
 weight = 1
 
 [[Languages.fr.menu.main]]
-name = "un service"
+name = "Service"
 url = "#services"
 weight = 2
 
 [[Languages.fr.menu.main]]
-name = "portefeuille"
+name = "Projets"
 url = "#portfolio"
 weight = 3
 
 [[Languages.fr.menu.main]]
-name = "équipe"
+name = "Nos équipes"
 url = "#team"
 weight = 4
 
-[[Languages.fr.menu.main]]
-name = "tarification"
-url = "#pricing"
-weight = 5
+# [[Languages.fr.menu.main]]
+# name = "Tarifications"
+# url = "#pricing"
+# weight = 5
+
+# [[Languages.fr.menu.main]]
+# name = "Blog"
+# url = "#blog"
+# weight = 6
 
 [[Languages.fr.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-
-[[Languages.fr.menu.main]]
-name = "contact"
+name = "Contact"
 url = "#contact"
 weight = 7
 
-[[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+# [[Languages.fr.menu.main]]
+# name = "themefisher"
+# url = "https://themefisher.com/"
+# weight = 8
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.png"
+# logo = "images/logo.png"
+logo = "images/demarch-logo-holdv.png"
+
 # Meta data
 description = "Responsive Multipurpose Parallax Hugo Template"
 author = "Themefisher"
@@ -139,7 +141,8 @@ post_share = true
 # preloader
 [params.preloader]
 enable = false
-preloader = "images/logo.png"
+# preloader = "images/logo.png"
+preloader = "images/demarch-logo-holdv.png"
 
 # cookies
 [params.cookies]
@@ -148,7 +151,8 @@ expire_days = 2
 
 # google map
 [params.map]
-enable = false
+# enable = false
+enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
@@ -157,26 +161,22 @@ map_marker = "images/marker.png"
 ############################# social icons ##########################
 [[params.social]]
 icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://facebook.com/demarch99"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/Demarch99"
 
-[[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+# [[params.social]]
+# icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+# link = "#"
 
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://linkedin.com/company/Demarch99"
 
 [[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
 
@@ -187,7 +187,8 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+#copyright = "Copyright &copy; 2021 Demarch, Tous droits réservés Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2021 Demarch, Tous droits réservés | Designed by [Onit365](https://themefisher.com) & Developed by [Demarch](https://demarch.sn)"
 
 ################################ France Language ########################
 [Languages.fr]
@@ -196,4 +197,5 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 home = "Accueil"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+#copyright = "Copyright &copy; 2021 Demarch, Tous droits réservés Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2021 Demarch, Tous droits réservés | Designed by [Onit365](https://themefisher.com) & Developed by [Demarch](https://demarch.sn)"
