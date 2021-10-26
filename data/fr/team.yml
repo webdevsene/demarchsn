@@ -5,8 +5,8 @@ team:
   team_member :
     # team member loop
     - name : Cheikh Koïte
-      image_webp : images/team/cheikh2.webp
-      image : images/team/cheikh2.jpg
+      image_webp : /images/team/cheikh2.webp
+      image : /images/team/cheikh2.jpg
       designation : Chef de projet Copy Editing
       content : Économiste de formation, compétence en logistique, Edition de livres et de documentation.
       social :
@@ -19,8 +19,8 @@ team:
 
     # team member loop
     - name : F.Bintou Diop
-      image_webp : images/team/diopmanager2.webp
-      image : images/team/diopmanager2.jpg
+      image_webp : /images/team/diopmanager2.webp
+      image : /images/team/diopmanager2.jpg
       designation : Directeur général @Demarch
       content : coordonnatrice de projets numérique d'envergure national.CEO Demarch.
       social :
@@ -35,8 +35,8 @@ team:
         
     # team member loop
     - name : Assane Mbaye
-      image_webp : images/team/assane2.webp
-      image : images/team/assane2.jpg
+      image_webp : /images/team/assane2.webp
+      image : /images/team/assane2.jpg
       designation : Chef de projet relecture
       content : Juriste de formation,  compétence en édition de livres et de documentation( juridique, scientifique, scolaire et technique).
       social :
