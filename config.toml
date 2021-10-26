@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-# baseURL = "https://"
-baseURL = "localhost"
+baseURL = "https://"
+# baseURL = "localhost"
 title = "Demarch - votre partenaire en transformation digitale"
 theme = "meghna-hugo"
 #themesDir = "../.."
