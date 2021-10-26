@@ -51,8 +51,8 @@ team:
         
     # team member loop
     - name : Youssoupha Diouf
-      image_webp : images/team/diouf2.webp
-      image : images/team/diouf2jpg
+      image_webp : /images/team/diouf2.webp
+      image : /images/team/diouf2.jpg
       designation : Responsable système informatique
       content : Ingénieur informatique (Développeur, Administrateur de base de données et Expérience en sécurité).
       social :
