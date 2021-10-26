@@ -3,7 +3,7 @@ baseURL = "https://"
 # baseURL = "localhost"
 title = "Demarch - votre partenaire en transformation digitale"
 theme = "meghna-hugo"
-themesDir = "../.."
+themesDir = "themes"
 # post pagination
 paginate = "6"
 # post excerpt
